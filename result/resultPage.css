@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.ipdetails{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.ipdata{
+    margin-top: 20px;
+    margin-left: 30px;
+    color:#5C5E66;
+}
+.ipdetails>*>*{
+    margin-bottom: 10px;
+}
+.location{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #575A85;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+iframe{
+    width: 95%;
+    height: 80%;
+}
+.location>h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #B8BCCC;
+}
+.moreinfo{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #5C5E66;
+    
+}
+.moreinfo>*{
+    margin-bottom: 20px;
+}
+.moreinfo>h1{
+    text-align: center;
+    color: #B8BCCC;
+}
+.postoffices{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postoffices>h1{
+   text-align: center;
+   color: #B8BCCC;
+
+}
+.postoffices>input{
+    margin-top:20px ;
+    width: 95%;
+    height: 30px;
+    background-color: black;
+    border: 1px solid #B8BCCC;
+    padding-inline: 20px;
+    color: #B8BCCC;
+}
+.card{
+    background-color: #575A85;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    color: #B8BCCC;
+}
+.post-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    gap: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.card>*{
+    margin-left: 30px;
+}

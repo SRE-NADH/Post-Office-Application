@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostOffices</title>
+    <link rel="stylesheet" href="resultPage.css">
+</head>
+<body>
+    
+    <div class="ipdata">
+      <p id="ipaddress">IP Address:<span></span></p>
+      <div class="ipdetails"> 
+      <div>
+        <p id="lat">Lat:<span></span></p>
+        <p id="long">Long:<span></span></p>
+      </div>
+      <div>
+        <p id="city">City:<span></span></p>
+        <p id="region">Region:<span></span></p>
+      </div>
+      <div>
+          <p id="organisation">Organisation:<span></span></p>
+          <p id="hostname">Hostname:<span></span></p>
+      </div>
+      </div>
+    </div>
+   
+    <div class="location">
+        <h1>Your Current Location</h1>
+        <iframe id="iframe" src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed"  frameborder="0" style="border:0"></iframe>
+    </div>
+    
+    <div class="moreinfo">
+        <h1>More Information About You</h1>
+        <p id="timezone">TimeZone</p>
+        <p id="date">TimeZone</p>
+        <p id="pincode">TimeZone</p>
+        <p id="message">TimeZone</p>
+    </div>
+
+    <div class="postoffices">
+        <h1>Post Offices Near You</h1>
+        <input type="search" placeholder="Search By Name">
+        <div class="post-cards">
+            <div class="card">
+                <p id="name">name</p>
+                <p id="branchtype">Branch type</p>
+                <p id="deliverystatus">deliverystatus</p>
+                <p id="district">district</p>
+                <p id="division">divison</p>
+            </div>
+            <div class="card">
+                <p id="name">name</p>
+                <p id="branchtype">Branch type</p>
+                <p id="deliverystatus">deliverystatus</p>
+                <p id="district">district</p>
+                <p id="division">divison</p>
+            </div>
+            <div class="card">
+                <p id="name">name</p>
+                <p id="branchtype">Branch type</p>
+                <p id="deliverystatus">deliverystatus</p>
+                <p id="district">district</p>
+                <p id="division">divison</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="resultPage.js"></script>
+</body>
+</html>
