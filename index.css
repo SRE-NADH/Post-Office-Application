@@ -65,17 +65,24 @@ h1{
     color: #B8BCCC;
     font-size: 20px;
   }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 860px) {
     /* Your CSS styles here */
     .imagecontainer>img{
         max-width: 300px;
     }
+    .ip-container>p{
+        font-size: 20px;
+    }
+    .ip-container>button{
+        font-size: 10px;
+        width: 100px;
+    }
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 620px) {
     /* Your CSS styles here */
     .imagecontainer>img{
         max-width: 100%;
-    }
+    } 
   }
 

@@ -93,3 +93,25 @@ iframe{
 .card>*{
     margin-left: 30px;
 }
+#ipaddress>span{
+    color: #B8BCCC;
+}
+
+@media screen and (max-width: 640px) {
+    /* Your CSS styles here */
+   .ipdetails{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
+  @media screen and (max-width: 380px) {
+    /* Your CSS styles here */
+  .post-cards{
+    grid-template-columns: 1fr;
+
+  }
+  .postoffices{
+    margin-left:10px;
+  }
+  }
