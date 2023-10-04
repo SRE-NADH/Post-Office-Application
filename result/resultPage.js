@@ -77,7 +77,7 @@ fetchPincodes();
 
 input.addEventListener("input",()=>{
 
-    console.log(1);
+    //console.log(1);
     const filterValue = input.value.toLowerCase();
     let arr= new Set();
     Nameobj.forEach(item => {
