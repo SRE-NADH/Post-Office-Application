@@ -29,7 +29,7 @@ catch(error){
 
 
  function addToCookie(result){
-  console.log(result);
+  //console.log(result);
   let data = {
     Ip:result.ip,
     City:result.city,
